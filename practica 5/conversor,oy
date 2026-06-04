@@ -1,0 +1,18 @@
+print("Bienvenido al conversor de millas a kilómetros")
+
+print("Escribe un número en millas")
+millas = input()
+
+# Impresión para verificar el tipo de dato inicial (String)
+print("tipo de dato de millas", type(millas))
+
+# Conversión de tipo de dato de string a float para poder operar matemáticamente
+millas = float(millas)
+print("tipo de dato de millas", type(millas))
+
+print("millas ingresadas", millas)
+
+# Fórmula de conversión
+kilómetros = millas * 1.609
+
+print("kilómetros:", kilómetros)
